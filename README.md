@@ -8,10 +8,10 @@
 #### Problem 1.1: Gathering allies while avoiding obstacles [Solution1.py](https://github.com/ma-rv/rci/blob/master/Techniques%20in%20Artificial%20Intelligence/Solution1.py)
 A  robot,  who  is  hell-bent  on  conquering  the  universe,  needs  to  travel  to  different  planets  in  order  to gather allies.  Help it to navigate through asteroid belts (the obstacles) before its fuel runs out. We  illustrate  the  problem  with  a  matrix,  where ∗ represents  obstacles  in  the  astroid  belt, − valid positions  for  a  path, X the  position  of  the  ally  (hence  the  goal  destination),  and R the  starting position. 
 
-Going different directions costs different amount of fuel: 
-To move left/right: 5 units 
-To move up/down: 6 units 
-To move diagonally: 10 units
+Going different directions costs different amount of fuel: <br>
+To move left/right: 5 units <br>
+To move up/down: 6 units <br>
+To move diagonally: 10 units <br>
 
 Calculate the minimum units of fuel (in integer) the robot needs to reach the ally.  If not possible to reach
 the ally, print “No path found!”.
